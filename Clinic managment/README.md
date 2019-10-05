@@ -1,13 +1,2 @@
 # Hospital-management-python-
-This hospital management project is made using the tkinter and sqlite in python 
-
-login.py file contains the code for login page ( username and password is there in file itself)
-window2.py file contains the code for menu 
-PATDELSU.py file contains the code for the registtration, updation and deletion of patient records
-HMdp.py file contains the sqlite queries for database and sqlite connection
-employee_reg.py file contains code for employee registration 
-BILLING.py file contains code for calculating the bill of the patient
-RooMT.py file contains code for allocating a room to the patient if he/she gets admitted.
-appointment.py file contains code for scheduling an appointment with doctor.
-
-This project is made in mind keeping that it can be handled by a single person handling all the database of the patient.
+This project on Hospital Management System includes registration of patients, employee registration, scheduling an appointment with a doctor and stores the details into the system. The project is GUI Frame Application using tkinter. The layout geometry manager used are pack and place. They arrange widgets on the screen and manage the display of widgets on the screen. The system can be entered using the username and password from the login window. It allocates a room to the patient. The system is connected to a database using the sqlite connection and sqlite queries. This system provides unique id for every patient. It includes search facility to search for a patient record using patient id. The data can be searched, updated and deleted from the database easily. This project is made in mind keeping that it can be handled by a single person handling all the database of the patient.
